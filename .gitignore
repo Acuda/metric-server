@@ -1,3 +1,12 @@
+# project spesific
+db_repository/
+app.db
+app/static/resources/*.bag
+
+# ide spesific 
+.idea/
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

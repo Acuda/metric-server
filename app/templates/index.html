@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for data in datalist %}
+    <div><p>{{ data.key }} says: <b>{{ data.value }}</b></p></div>
+    {% endfor %}
+{% endblock %}
