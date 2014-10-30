@@ -1,9 +1,9 @@
-# project spesific
+# project specific
 db_repository/
 app.db
 app/static/resources/*.bag
 
-# ide spesific 
+# ide specific
 .idea/
 *.swp
 
