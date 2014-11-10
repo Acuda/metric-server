@@ -13,7 +13,7 @@ def catch_all(path):
     else:
         pathl = [path]
 
-    if pathl[0] == 'resources':
+    if pathl[0] == 'resource':
         if pathl[1] == 'bagfile':
             return redirect(url_for('static', filename='resources/2014-09-11-15-38-36.bag'))
 
